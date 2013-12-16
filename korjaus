@@ -1,0 +1,15 @@
+void TulostaHenkilo(DATA henkilo)
+{
+			std::cout<<"Etunimi: "<<henkilo.nimi_etunimi<<std::endl;
+			std::cout<<" Toinen nimi: "<<henkilo.nimi_toinennimi<<std::endl;
+			std::cout<<" Sukunimi: "<<henkilo.nimi_sukunimi<<std::endl;
+			std::cout <<"Etuliite: "<<henkilo.nimi_etuliite<<std::endl;
+			std::cout<<"Jalkiliite: "<<henkilo.nimi_jalkiliite<<std::endl;
+			std::cout<<"Osoite: "<<henkilo.osoite_katuosoite<<std::endl;
+			std::cout <<"Kaupunki:"<<henkilo.osoite_kaupunki<<std::endl;
+			std::cout<<"Laani: "<<henkilo.osoite_laani<<std::endl;
+			std::cout<<"Postinumero: "<<henkilo.osoite_postinumero<<std::endl;
+			std::cout <<"Puhelin: "<<henkilo.puhelinnumero<<std::endl;
+			std::cout<<"Email: "<<"Kiinnostukset:"<<henkilo.kiinnostus_kohde<<std::endl;
+			std::cout<<std::endl;
+}
